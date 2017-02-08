@@ -12,6 +12,8 @@
 		FB84C9A61E4A9D4500EDEAF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB84C9A41E4A9D4500EDEAF6 /* Main.storyboard */; };
 		FB84C9A81E4A9D4500EDEAF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB84C9A71E4A9D4500EDEAF6 /* Assets.xcassets */; };
 		FB84C9AB1E4A9D4500EDEAF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB84C9A91E4A9D4500EDEAF6 /* LaunchScreen.storyboard */; };
+		FB84C9B31E4AA15400EDEAF6 /* ShowDetaillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84C9B21E4AA15400EDEAF6 /* ShowDetaillViewController.swift */; };
+		FB84C9B51E4AA6DA00EDEAF6 /* ModallyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84C9B41E4AA6DA00EDEAF6 /* ModallyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FB84C9A71E4A9D4500EDEAF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB84C9AA1E4A9D4500EDEAF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB84C9AC1E4A9D4500EDEAF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB84C9B21E4AA15400EDEAF6 /* ShowDetaillViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowDetaillViewController.swift; sourceTree = "<group>"; };
+		FB84C9B41E4AA6DA00EDEAF6 /* ModallyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModallyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				FB84C9A71E4A9D4500EDEAF6 /* Assets.xcassets */,
 				FB84C9A91E4A9D4500EDEAF6 /* LaunchScreen.storyboard */,
 				FB84C9AC1E4A9D4500EDEAF6 /* Info.plist */,
+				FB84C9B21E4AA15400EDEAF6 /* ShowDetaillViewController.swift */,
+				FB84C9B41E4AA6DA00EDEAF6 /* ModallyViewController.swift */,
 			);
 			path = "Transiciones en iOS";
 			sourceTree = "<group>";
@@ -96,6 +102,7 @@
 				TargetAttributes = {
 					FB84C99C1E4A9D4500EDEAF6 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = XJY6K7P63P;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB84C9B31E4AA15400EDEAF6 /* ShowDetaillViewController.swift in Sources */,
 				FB84C9A31E4A9D4500EDEAF6 /* ViewController.swift in Sources */,
 				FB84C9A11E4A9D4500EDEAF6 /* AppDelegate.swift in Sources */,
+				FB84C9B51E4AA6DA00EDEAF6 /* ModallyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,11 +267,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XJY6K7P63P;
 				INFOPLIST_FILE = "Transiciones en iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pe.sulca.Transiciones-en-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -270,11 +281,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XJY6K7P63P;
 				INFOPLIST_FILE = "Transiciones en iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pe.sulca.Transiciones-en-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
